@@ -19,6 +19,7 @@
 		BCB9925119354A7600BA7FEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB9923919354A7600BA7FEB /* UIKit.framework */; };
 		BCB9925919354A7600BA7FEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCB9925719354A7600BA7FEB /* InfoPlist.strings */; };
 		BCB9925B19354A7600BA7FEB /* FactoryAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB9925A19354A7600BA7FEB /* FactoryAppTests.m */; };
+		BCB9926519354AC900BA7FEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB9926419354AC900BA7FEB /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		BCB9925619354A7600BA7FEB /* FactoryAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FactoryAppTests-Info.plist"; sourceTree = "<group>"; };
 		BCB9925819354A7600BA7FEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BCB9925A19354A7600BA7FEB /* FactoryAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryAppTests.m; sourceTree = "<group>"; };
+		BCB9926419354AC900BA7FEB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		BCB9922919354A7600BA7FEB = {
 			isa = PBXGroup;
 			children = (
+				BCB9926419354AC900BA7FEB /* Main.storyboard */,
 				BCB9923B19354A7600BA7FEB /* FactoryApp */,
 				BCB9925419354A7600BA7FEB /* FactoryAppTests */,
 				BCB9923419354A7600BA7FEB /* Frameworks */,
@@ -220,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCB9926519354AC900BA7FEB /* Main.storyboard in Resources */,
 				BCB9924019354A7600BA7FEB /* InfoPlist.strings in Resources */,
 				BCB9924819354A7600BA7FEB /* Images.xcassets in Resources */,
 			);
